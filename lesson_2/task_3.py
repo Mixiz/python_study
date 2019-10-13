@@ -12,7 +12,7 @@ try:
     if month < 1 or month > 12:
         print("Месяца с таким номером нет")
     else:
-        print("Время года:", month_list[month])
+        print("Время года:", month_list[month-1])
         print("Время года:", month_dict.get(month))
 except Exception:
     print("Вы ввели некорректное число")
