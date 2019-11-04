@@ -29,7 +29,8 @@ class Matrix:
         return Matrix(matrix)
 
 
-matrix = Matrix([[1, 2, 3, 4], [2, 3, 4, 5], [3, 2, 1, 0], [4, 4, 4, 8]])
-matrix_2 = Matrix([[1, 2, 3, 4], [2, 3, 4, 5], [3, 2, 1, 0], [4, 4, 4, 8]])
-new_matrix = matrix + matrix_2
-print(new_matrix)
+if __name__ == '__main__':
+    matrix = Matrix([[1, 2, 3, 4], [2, 3, 4, 5], [3, 2, 1, 0], [4, 4, 4, 8]])
+    matrix_2 = Matrix([[1, 2, 3, 4], [2, 3, 4, 5], [3, 2, 1, 0], [4, 4, 4, 8]])
+    new_matrix = matrix + matrix_2
+    print(new_matrix)
